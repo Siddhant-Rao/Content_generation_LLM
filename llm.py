@@ -11,10 +11,10 @@ import pandas as pd
 import google.generativeai as genai
 
 # Load data
-df = pd.read_csv('inv_urls_1.csv')
+df = pd.read_csv('import the file that you want the llm to read')
 
 # Gemini API Configuration
-API_KEY = "AIzaSyDh84oDU_7BczYpDNHUlEBw9inMj4Z36fo"
+API_KEY = "Enter your gemini api key"
 MODEL_NAME = "gemini-1.5-flash"
 
 # Initialize Gemini API
